@@ -17,9 +17,9 @@ To run this project locally, follow these steps:
 3. Create a virtul enviornment:
    ```bash
    conda create -p venv python==3.10
-   ```bash
+
    conda activate venv/
-   ```bash
+
 
 5. Install the required Python packages:
 
