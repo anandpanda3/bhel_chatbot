@@ -12,22 +12,28 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd LLM-powered-PDF-Chatbot
+   cd Gemini
    ```
+3. Create a virtul enviornment:
+   ```bash
+   conda create -p venv python==3.10
+   ```bash
+   conda activate venv/
+   ```bash
 
-3. Install the required Python packages:
+5. Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file and set your environment variables.
+6. Create a `.env` file and set your environment variables.
 
    ```plaintext
-   OPENAI_API_KEY=(malied to yo)
+   GOOGLE_API_KEY=(malied to yo)
    ```
 
-5. Run the Streamlit app:
+7. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
